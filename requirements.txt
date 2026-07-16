@@ -1,0 +1,11 @@
+pip install -r requirements.txt
+import pandas as pd
+import plotly.express as px
+import streamlit as st
+
+read_csv = pd.read_csv(r"C:\Users\Axionixsed\Downloads\vehicles_us.csv")
+
+streamlit
+pandas
+plotly
+

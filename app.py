@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-car_data = pd.read_csv(r'C:\Users\Axionixsed\Downloads\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 
 hist_button = st.button('Construir histograma')
